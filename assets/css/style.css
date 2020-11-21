@@ -1282,3 +1282,15 @@ section {
 .homeIconq{
   font-size: 20px;
 }
+.btnd {
+  background-color: #34b7a7;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  height: 100px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btnd:hover {
+  background-color: RoyalBlue;
+}

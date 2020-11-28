@@ -78,7 +78,7 @@
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-        <div class="row p-5">
+        <div class="row p-4">
           <div class="card-deck ">
             <div class="card  text-center border-0">
               <img class="card-img-top" src="assets/img/otto.jpg" alt="Card image cap" height="375px">
@@ -91,7 +91,9 @@
               </div>
             </div>
             <div class="card  text-center border-0">
-              <img class="card-img-top" src="assets/img/ecrobo.jpg" alt="Card image cap" height="375px">
+              <video  height="375px" controls loop autoplay id="vid" muted>
+                <source src="assets/img/ecbotvid.MOV" type="video/mp4">
+              </video>
               <div class="card-body">
                 <h5 class="card-title text-center">botECE</h5>
                 <a href=" https://t.me/ectkmbot?text=Hii" class="btn btn-primary"><i class="icofont-telegram"></i>Let's Chat</a>
@@ -179,6 +181,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('vid').play();
+</script>
 
 </body>
 

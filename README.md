@@ -1,2 +1,2 @@
-# Karthik-Sunil-K.github.io
+# Karthik-Sunil-K
 # Portfolio
